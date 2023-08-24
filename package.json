@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i assets/css/tailwind.css -c tailwind.config.js -o _site/style.css --watch",
+    "build:search": "npx pagefind --source _site --bundle-dir _pagefind",
     "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i assets/css/tailwind.css -c tailwind.config.js -o _site/style.css --minify"
   },
   "keywords": [],

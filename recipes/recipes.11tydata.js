@@ -1,4 +1,4 @@
 module.exports = {
-    layout: 'layouts/recipe.njk',
+    layout: "layouts/recipe.njk",
     tags: ['recipe'],
 }

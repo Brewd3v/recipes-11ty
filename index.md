@@ -6,7 +6,7 @@ eleventyImport:
   collections: ["recipe"]
 ---
 
-# Recipe Book 11
+# {{ title }}
 
 <ul>
 {%- for recipe in collections.all -%}
