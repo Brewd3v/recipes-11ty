@@ -3,7 +3,12 @@ layout: layouts/base.njk
 ---
 <article>
     <a href="/">Back to recipes</a>
-    <h1 class="mt-12">{{ title }}</h1>
+    <h1 class="!my-12">{{ title }}</h1>
+    <div class="tags">
+        {% for tag in tags %}
+            <a href="/tags/{{ tag | slug }}" data-pagefind-filter="tag">{{ tag }}</a>
+        {% endfor %}
+    </div>
     <div>
         <div class="">
             <h2>Ingredients</h2>

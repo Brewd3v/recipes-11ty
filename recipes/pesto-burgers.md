@@ -1,6 +1,7 @@
 ---
 title: Basil Pesto Burgers
 date: 2023-08-24
+tags: ['burgers', 'beef', 'pesto']
 ingredients:
   - 500g beef mince
   - 1/2 cup basil pesto

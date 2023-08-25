@@ -1,7 +1,7 @@
 ---
 title: Magic Onions
 date: 2023-08-24
-tags: ['onions', 'james']
+tags: ['onions', toppings', 'burgers', 'hotdogs']
 steps:
     - cut the onios half and then into thin half rings
     - fry up the onions in a pan with some butter on medium heat
